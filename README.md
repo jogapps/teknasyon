@@ -10,19 +10,19 @@
 
 ## Routes
 
- - register
+ - REGISTER DEVICES
  - Route::post('register', 'App\Http\Controllers\Api\RegistrationController@register');
 
- - google/ios dummy api
+ - DUMMY GOOGLE/IOS DUMMY API
  - Route::post("google-ios", 'App\Http\Controllers\Api\GoogleIosController@verify');
 
- -  subscribe
+ -  SUBSCRIBE
  -  Route::prefix('subscribe/')->group(function(){
  -      Route::post('', 'App\Http\Controllers\Api\SubscriptionController@subscribe');
  -      Route::post('status', 'App\Http\Controllers\Api\SubscriptionController@status');
  -   });
 
- -  subscription details
+ -  SUBSCRIPTION DETAILS
  -   Route::prefix('subscription/')->group(function(){
  -      Route::post('day', 'App\Http\Controllers\Api\SubscriptionController@subscriptionByDay');
  -      Route::post('os', 'App\Http\Controllers\Api\SubscriptionController@subscriptionByOs');
