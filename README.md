@@ -1,4 +1,4 @@
-## About Teknason Godspower Project
+## About Teknayson Godspower Project
 
 ## Handled Tasks
  - API only
