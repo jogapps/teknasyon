@@ -1,0 +1,73 @@
+body {
+  margin: 20px;
+  padding: 0;
+  border: 0px solid black;
+}
+
+.logo {
+  width: 60%;
+}
+
+.header {
+  padding-top: 50px;
+}
+
+.header .col-lg-9 {
+  text-align: right;
+}
+
+.student-profile {
+  margin-top: 80px;
+}
+
+.student-profile h2 {
+  margin-bottom: 50px;
+}
+
+.student-profile i {
+  font-size: 200px;
+  /* text-align-last: right !important; */
+}
+
+.result-table {
+  margin-top: 50px;
+}
+
+.report-summary {
+  margin-top: 50px;
+}
+
+.report-summary p {
+  text-align: right;
+}
+
+.report-summary .box {
+  height: 150px;
+  width: 150px;
+  background-color: #eee;
+  margin-left: 105px;
+}
+
+@media(max-width: 600px) {
+  .logo {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  .header .col-lg-9 {
+    text-align: left;
+  }
+  .student-profile {
+    margin-top: 50px;
+  }
+  .student-profile i {
+    font-size: 200px;
+    text-align-last: left;
+    margin-top: 30px;
+  }
+  .report-summary .box {
+    margin-left: 0px;
+  }
+  .report-summary p {
+    text-align: left;
+  }
+}
